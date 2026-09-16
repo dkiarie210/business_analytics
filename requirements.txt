@@ -1,0 +1,33 @@
+# Netflix Customer Segmentation Project
+# Module 2 - Business Analytics Project
+
+# Core data analysis
+pandas>=2.2
+numpy>=2.0
+
+# Machine learning and clustering
+scikit-learn>=1.5
+joblib>=1.4
+
+# Data exploration and visualization
+matplotlib>=3.9
+
+# Notebook environment
+jupyterlab>=4.2
+ipykernel>=6.29
+
+# Query and local analytics
+duckdb>=1.1
+
+# AWS integration
+boto3>=1.35
+awswrangler>=3.9
+
+# Data versioning
+dvc[s3]>=3.55
+
+# Configuration
+PyYAML>=6.0
+
+# Testing
+pytest>=8.3
