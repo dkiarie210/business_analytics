@@ -1,0 +1,7 @@
+project_name: netflix_customer_segmentation
+raw_input: data/raw/kaggle_netflix_ratings.csv
+interim_output: data/interim/cleaned_ratings.csv
+processed_output: data/processed/customer_features.csv
+min_customer_ratings: 5
+valid_rating_min: 1
+valid_rating_max: 5

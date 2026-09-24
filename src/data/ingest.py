@@ -4,7 +4,7 @@ from pathlib import Path
 import kagglehub
 import pandas as pd
 
-RAW = Path("data/raw/sample_netflix_ratings.csv")
+RAW = Path("data/raw/kaggle_netflix_ratings.csv")
 INTERIM = Path("data/interim/ingested_ratings.csv")
 
 DATASET = "netflix-inc/netflix-prize-data"

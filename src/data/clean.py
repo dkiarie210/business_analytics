@@ -1,5 +1,6 @@
 from pathlib import Path
 import pandas as pd
+from src.governance.privacy_audit import audit
 
 INPUT = Path("data/interim/ingested_ratings.csv")
 OUTPUT = Path("data/interim/cleaned_ratings.csv")
